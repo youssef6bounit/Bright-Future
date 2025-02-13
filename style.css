@@ -810,6 +810,9 @@ section.footer{
 	color: var(--light-heading-clr);
 	border: 1px solid var(--light-heading-clr);
 }
+input:focus{
+ outline: 0;
+}
 .footer .copy-rights{
 	padding: 30px 0px 0px;
 	border-top: 1px solid var(--light-text-clr);
@@ -818,8 +821,9 @@ section.footer{
 .footer .copy-rights p{
 	color: var(--primary-light-clr);
 }
-.footer .copy-rights p b{
+.footer .copy-rights p b , .footer .copy-rights p b a{
 	color: yellow;
+  text-decoration: none;
 }
 /*   === Footer Section Styling Ends ===   */
 
